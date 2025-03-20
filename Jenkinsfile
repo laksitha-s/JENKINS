@@ -5,8 +5,8 @@ pipeline {
         IMAGE_NAME = "laksitha48/my-app"
         REGISTRY = "docker.io"
         APP_DIR = "/home/vboxuser/opt/jenkins/"
-        DOCKER_USER = "laksitha48"          // Replace with your Docker Hub username
-        DOCKER_PASS = "Laks_1234"          // Replace with your Docker Hub password
+        DOCKER_CREDENTIALS_ID = "docker-hub"          // Replace with your Docker Hub username
+        GITHUB_CREDENTIALS_ID = "GitHub"         // Replace with your Docker Hub password
     }
 
     stages {
